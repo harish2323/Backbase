@@ -1,0 +1,8 @@
+StepDefinition\FilterComputerSteps.class
+Pages\UpdateComputerPage.class
+StepDefinition\UpdateComputerSteps.class
+Pages\CreateComputerPage.class
+StepDefinition\BaseTest.class
+StepDefinition\CreateComputerSteps.class
+Runner\TestRunner.class
+Pages\HomePage.class

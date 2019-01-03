@@ -1,0 +1,54 @@
+-------------------------------------------------------------------------------
+Test set: Runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 85, Failures: 6, Errors: 0, Skipped: 5, Time elapsed: 150.759 sec <<< FAILURE!
+Then I verify success message for Melbourne99 is not displayed(| Melbourne99 | 2016-12-12 | 2013-12-12 | RCA |)  Time elapsed: 0.014 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Success message should not be displayed
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.TestCase.assertTrue(TestCase.java:192)
+	at StepDefinition.CreateComputerSteps.iVerifyCreateComputerSuccessMessageIsNotDisplayed(CreateComputerSteps.java:67)
+	at ?.Then I verify success message for Melbourne99 is not displayed(UpdateComputer.feature:81)
+
+| Melbourne99 | 2016-12-12 | 2013-12-12 | RCA |  Time elapsed: 0.016 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Success message should not be displayed
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.TestCase.assertTrue(TestCase.java:192)
+	at StepDefinition.CreateComputerSteps.iVerifyCreateComputerSuccessMessageIsNotDisplayed(CreateComputerSteps.java:67)
+	at ?.Then I verify success message for Melbourne99 is not displayed(UpdateComputer.feature:81)
+
+And I verify the introduced date field is highlighted in red(| Melbourne99 | 2012/12/12 | 2012-99-12 | RCA |  |)  Time elapsed: 0.001 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at junit.framework.TestCase.assertTrue(TestCase.java:201)
+	at StepDefinition.CreateComputerSteps.iVerifyTheIntroducedDateFieldIsHighlightedInRed(CreateComputerSteps.java:105)
+	at ?.And I verify the introduced date field is highlighted in red(UpdateComputer.feature:98)
+
+| Melbourne99 | 2012/12/12 | 2012-99-12 | RCA |  |  Time elapsed: 0.001 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at junit.framework.TestCase.assertTrue(TestCase.java:201)
+	at StepDefinition.CreateComputerSteps.iVerifyTheIntroducedDateFieldIsHighlightedInRed(CreateComputerSteps.java:105)
+	at ?.And I verify the introduced date field is highlighted in red(UpdateComputer.feature:98)
+
+Then I verify success message for Melbourne99 is not displayed(| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |)  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Success message should not be displayed
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.TestCase.assertTrue(TestCase.java:192)
+	at StepDefinition.CreateComputerSteps.iVerifyCreateComputerSuccessMessageIsNotDisplayed(CreateComputerSteps.java:67)
+	at ?.Then I verify success message for Melbourne99 is not displayed(UpdateComputer.feature:123)
+
+| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |  Time elapsed: 0.001 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Success message should not be displayed
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.TestCase.assertTrue(TestCase.java:192)
+	at StepDefinition.CreateComputerSteps.iVerifyCreateComputerSuccessMessageIsNotDisplayed(CreateComputerSteps.java:67)
+	at ?.Then I verify success message for Melbourne99 is not displayed(UpdateComputer.feature:123)
+
