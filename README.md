@@ -2,6 +2,14 @@ Backbase Automation
 
 Prerequisites :
 
+The following are required to run the tests :
+1) Maven
+2) Jdk 1.8
+3) Junit
+4) Chrome browser
+5) Firefox browser
+6) Cucumber
+
 Framework :
 The framework uses cucumber for BDD scenarios and java(selenium) to define the steps. The tests can be run in firefox or chrome.
 
