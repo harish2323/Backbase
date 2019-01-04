@@ -84,7 +84,7 @@ Feature: Verify the update computer functionality
       |Computer name | Introduced date | Discontinued date | Company name |
       | Melbourne99  | 2016-12-12      | 2013-12-12        | RCA          |
 
-  @UPDATE_010,@UPDATE_011,@UPDATE014
+  @UPDATE_010 @UPDATE_011 @UPDATE014
   Scenario Outline: Update should not be allowed if there dates are invalid.
     And I create the computer if it does not exist
       |Computer name | Introduced date | Discontinued date | Company name |
@@ -92,7 +92,7 @@ Feature: Verify the update computer functionality
     And I enter the <Computer name> in the filter text box
     And I click the filter button
     And I click on the <Computer name> in the result
-    And  I enter the computer details <New Computer name>,<Introduced date>,<Discontinued date>,<Company name>
+    And  I enter the computer details <New Computer name>,<Invalid Introduced date>,<Invalid Discontinued date>,<Company name>
     And  I click the save this computer button
     And  I verify the computer name field is highlighted in red
     And  I verify the introduced date field is highlighted in red
@@ -104,8 +104,8 @@ Feature: Verify the update computer functionality
 
 
     Examples:
-      |Computer name | Introduced date | Discontinued date | Company name | New Computer name |
-      | Melbourne99  | 2012/12/12      |  2012-99-12       | RCA          |                   |
+      |Computer name | Introduced date | Discontinued date | Company name | New Computer name | Invalid Introduced date | Invalid Discontinued date |
+      | Melbourne99  | 2012-12-12      |  2013-12-12       | RCA          |                   | 2012/12/12              | 2012-99-12                |
 
   @UPDATE_013
   Scenario Outline: Update should not be allowed if the new computer name already exists.

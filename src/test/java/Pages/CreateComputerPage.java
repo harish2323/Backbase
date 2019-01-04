@@ -50,5 +50,13 @@ public class CreateComputerPage
     @FindBy(how=How.XPATH,using="//div[@class='clearfix error']/child::label")
     public static WebElement FIELD_ERROR_RED;
 
+    @FindBy(how=How.XPATH,using="//label[text()='Introduced date']/parent::div")
+    public static WebElement INTRODUCED_DATE_FIELD_ERROR_RED;
+
+    @FindBy(how=How.XPATH,using="//label[text()='Discontinued date']/parent::div")
+    public static WebElement DISCONTINUED_DATE_FIELD_ERROR_RED;
+    @FindBy(how=How.XPATH,using="//label[text()='Computer name']/parent::div")
+    public static WebElement COMPUTER_NAME_FIELD_ERROR_RED;
+
 
 }

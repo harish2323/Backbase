@@ -85,6 +85,11 @@ public class CreateComputerSteps extends CreateComputerPage{
         assertTrue((HomePage.computercount()-computer_count)==1);
     }
 
+    @And("^The computer count is decreased by one$")
+    public void theComputerCountIsDecreasedByOne() throws Throwable {
+        assertTrue((computer_count-HomePage.computercount())==1);
+    }
+
     @Then("^The computer count is not increased by one$")
     public void theComputerCountIsNotIncreasedByOne() throws Throwable {
         assertTrue((HomePage.computercount()==computer_count));
@@ -97,18 +102,18 @@ public class CreateComputerSteps extends CreateComputerPage{
 
     @And("^I verify the computer name field is highlighted in red$")
     public void iVerifyTheComputerNameFieldIsHighlightedInRed() throws Throwable {
-        assertTrue(CreateComputerPage.FIELD_ERROR_RED.getText().equals("Computer name"));
+        assertTrue(CreateComputerPage.COMPUTER_NAME_FIELD_ERROR_RED.getAttribute("class").equals("clearfix error"));
     }
 
     @And("^I verify the introduced date field is highlighted in red$")
     public void iVerifyTheIntroducedDateFieldIsHighlightedInRed() throws Throwable {
-        assertTrue(CreateComputerPage.FIELD_ERROR_RED.getText().equals("Introduced date"));
+        assertTrue(CreateComputerPage.INTRODUCED_DATE_FIELD_ERROR_RED.getAttribute("class").equals("clearfix error"));
 
     }
 
     @And("^I verify the discontinued date field is highlighted in red$")
     public void iVerifyTheDiscontinuedDateFieldIsHighlightedInRed() throws Throwable {
-        assertTrue(CreateComputerPage.FIELD_ERROR_RED.getText().equals("Discontinued date"));
+        assertTrue(CreateComputerPage.DISCONTINUED_DATE_FIELD_ERROR_RED.getAttribute("class").equals("clearfix error"));
 
     }
 }

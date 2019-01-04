@@ -6,3 +6,4 @@ StepDefinition\BaseTest.class
 StepDefinition\CreateComputerSteps.class
 Runner\TestRunner.class
 Pages\HomePage.class
+StepDefinition\DeleteComputerSteps.class

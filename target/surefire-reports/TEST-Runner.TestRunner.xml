@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="85" failures="6" name="Runner.TestRunner" time="4.757" errors="0" skipped="5">
+<testsuite tests="11" failures="0" name="Runner.TestRunner" time="1.697" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="cucumber.options" value="--tags @UpdateComputer"/>
+    <property name="cucumber.options" value="--tags @DEL_003"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
     <property name="java.vm.version" value="25.131-b11"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
@@ -48,7 +48,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dcucumber.options=--tags @UpdateComputer -DBROWSER=chrome -P dev"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dcucumber.options=--tags @DEL_003 -DBROWSER=chrome -P dev"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -67,149 +67,15 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |" name="Given I load the home page" time="0.014"/>
-  <testcase classname="| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |" name="And I note down the computer count" time="0"/>
-  <testcase classname="| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |" name="And I delete the computer if it exists" time="0"/>
-  <testcase classname="| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |" name="And I delete the computer if it exists" time="0"/>
-  <testcase classname="| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |" name="And I create the computer if it does not exist" time="0.001"/>
-  <testcase classname="| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |" name="And I enter the Melbourne99 in the filter text box" time="0.004"/>
-  <testcase classname="| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |" name="And I click the filter button" time="0"/>
-  <testcase classname="| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |" name="And I click on the Melbourne99 in the result" time="0"/>
-  <testcase classname="| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |" name="And I enter the computer details Sydney99,2011-12-12,2014-12-12,Netronics" time="0"/>
-  <testcase classname="| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |" name="And I click the save this computer button" time="0"/>
-  <testcase classname="| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |" name="Then I verify Sydney99 updated successfully is displayed" time="0"/>
-  <testcase classname="| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |" name="| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |" time="1.656"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | Netronics | Sydney99 | 2013-12-12 | 2014-12-12 | RCA |" name="Given I load the home page" time="0"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | Netronics | Sydney99 | 2013-12-12 | 2014-12-12 | RCA |" name="And I note down the computer count" time="0"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | Netronics | Sydney99 | 2013-12-12 | 2014-12-12 | RCA |" name="And I delete the computer if it exists" time="0"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | Netronics | Sydney99 | 2013-12-12 | 2014-12-12 | RCA |" name="And I delete the computer if it exists" time="0"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | Netronics | Sydney99 | 2013-12-12 | 2014-12-12 | RCA |" name="And I create the computer if it does not exist" time="0"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | Netronics | Sydney99 | 2013-12-12 | 2014-12-12 | RCA |" name="And I enter the Melbourne99 in the filter text box" time="0"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | Netronics | Sydney99 | 2013-12-12 | 2014-12-12 | RCA |" name="And I click the filter button" time="0.001"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | Netronics | Sydney99 | 2013-12-12 | 2014-12-12 | RCA |" name="And I click on the Melbourne99 in the result" time="0"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | Netronics | Sydney99 | 2013-12-12 | 2014-12-12 | RCA |" name="And I enter the computer details Sydney99,2013-12-12,2014-12-12,RCA" time="0"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | Netronics | Sydney99 | 2013-12-12 | 2014-12-12 | RCA |" name="And I click the cancel button" time="0"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | Netronics | Sydney99 | 2013-12-12 | 2014-12-12 | RCA |" name="And I enter the Melbourne99 in the filter text box" time="0"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | Netronics | Sydney99 | 2013-12-12 | 2014-12-12 | RCA |" name="And I click the filter button" time="0.001"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | Netronics | Sydney99 | 2013-12-12 | 2014-12-12 | RCA |" name="Then I verify the result contains Melbourne99,2012-12-12,2013-12-12,Netronics" time="0"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | Netronics | Sydney99 | 2013-12-12 | 2014-12-12 | RCA |" name="| Melbourne99 | 2012-12-12 | 2013-12-12 | Netronics | Sydney99 | 2013-12-12 | 2014-12-12 | RCA |" time="1.528"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | RCA |  |" name="Given I load the home page" time="0"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | RCA |  |" name="And I note down the computer count" time="0"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | RCA |  |" name="And I delete the computer if it exists" time="0.004"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | RCA |  |" name="And I delete the computer if it exists" time="0"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | RCA |  |" name="And I create the computer if it does not exist" time="0"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | RCA |  |" name="And I enter the Melbourne99 in the filter text box" time="0"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | RCA |  |" name="And I click the filter button" time="0"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | RCA |  |" name="And I click on the Melbourne99 in the result" time="0"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | RCA |  |" name="And I enter the computer details ,2012-12-12,2013-12-12,RCA" time="0"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | RCA |  |" name="And I click the save this computer button" time="0.001"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | RCA |  |" name="And I verify the computer name field is highlighted in red" time="0"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | RCA |  |" name="And I click the cancel button" time="0"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | RCA |  |" name="And I enter the Melbourne99 in the filter text box" time="0"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | RCA |  |" name="And I click the filter button" time="0"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | RCA |  |" name="Then I verify the result contains Melbourne99,2012-12-12,2013-12-12,RCA" time="0"/>
-  <testcase classname="| Melbourne99 | 2012-12-12 | 2013-12-12 | RCA |  |" name="| Melbourne99 | 2012-12-12 | 2013-12-12 | RCA |  |" time="1.472"/>
-  <testcase classname="| Melbourne99 | 2016-12-12 | 2013-12-12 | RCA |" name="Given I load the home page" time="0"/>
-  <testcase classname="| Melbourne99 | 2016-12-12 | 2013-12-12 | RCA |" name="And I note down the computer count" time="0"/>
-  <testcase classname="| Melbourne99 | 2016-12-12 | 2013-12-12 | RCA |" name="And I delete the computer if it exists" time="0"/>
-  <testcase classname="| Melbourne99 | 2016-12-12 | 2013-12-12 | RCA |" name="And I delete the computer if it exists" time="0"/>
-  <testcase classname="| Melbourne99 | 2016-12-12 | 2013-12-12 | RCA |" name="And I create the computer if it does not exist" time="0"/>
-  <testcase classname="| Melbourne99 | 2016-12-12 | 2013-12-12 | RCA |" name="And I enter the Melbourne99 in the filter text box" time="0"/>
-  <testcase classname="| Melbourne99 | 2016-12-12 | 2013-12-12 | RCA |" name="And I click the filter button" time="0"/>
-  <testcase classname="| Melbourne99 | 2016-12-12 | 2013-12-12 | RCA |" name="And I click on the Melbourne99 in the result" time="0"/>
-  <testcase classname="| Melbourne99 | 2016-12-12 | 2013-12-12 | RCA |" name="And I enter the computer details Melbourne99,2016-12-12,2013-12-12,RCA" time="0"/>
-  <testcase classname="| Melbourne99 | 2016-12-12 | 2013-12-12 | RCA |" name="And I click the save this computer button" time="0.001"/>
-  <testcase classname="| Melbourne99 | 2016-12-12 | 2013-12-12 | RCA |" name="Then I verify success message for Melbourne99 is not displayed" time="0.014">
-    <failure message="Success message should not be displayed" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Success message should not be displayed
-	at junit.framework.Assert.fail(Assert.java:57)
-	at junit.framework.Assert.assertTrue(Assert.java:22)
-	at junit.framework.TestCase.assertTrue(TestCase.java:192)
-	at StepDefinition.CreateComputerSteps.iVerifyCreateComputerSuccessMessageIsNotDisplayed(CreateComputerSteps.java:67)
-	at ✽.Then I verify success message for Melbourne99 is not displayed(UpdateComputer.feature:81)
-</failure>
-  </testcase>
-  <testcase classname="| Melbourne99 | 2016-12-12 | 2013-12-12 | RCA |" name="| Melbourne99 | 2016-12-12 | 2013-12-12 | RCA |" time="0.016">
-    <failure message="Success message should not be displayed" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Success message should not be displayed
-	at junit.framework.Assert.fail(Assert.java:57)
-	at junit.framework.Assert.assertTrue(Assert.java:22)
-	at junit.framework.TestCase.assertTrue(TestCase.java:192)
-	at StepDefinition.CreateComputerSteps.iVerifyCreateComputerSuccessMessageIsNotDisplayed(CreateComputerSteps.java:67)
-	at ✽.Then I verify success message for Melbourne99 is not displayed(UpdateComputer.feature:81)
-</failure>
-  </testcase>
-  <testcase classname="| Melbourne99 | 2012/12/12 | 2012-99-12 | RCA |  |" name="Given I load the home page" time="0"/>
-  <testcase classname="| Melbourne99 | 2012/12/12 | 2012-99-12 | RCA |  |" name="And I note down the computer count" time="0"/>
-  <testcase classname="| Melbourne99 | 2012/12/12 | 2012-99-12 | RCA |  |" name="And I delete the computer if it exists" time="0"/>
-  <testcase classname="| Melbourne99 | 2012/12/12 | 2012-99-12 | RCA |  |" name="And I delete the computer if it exists" time="0"/>
-  <testcase classname="| Melbourne99 | 2012/12/12 | 2012-99-12 | RCA |  |" name="And I create the computer if it does not exist" time="0"/>
-  <testcase classname="| Melbourne99 | 2012/12/12 | 2012-99-12 | RCA |  |" name="And I enter the Melbourne99 in the filter text box" time="0"/>
-  <testcase classname="| Melbourne99 | 2012/12/12 | 2012-99-12 | RCA |  |" name="And I click the filter button" time="0"/>
-  <testcase classname="| Melbourne99 | 2012/12/12 | 2012-99-12 | RCA |  |" name="And I click on the Melbourne99 in the result" time="0"/>
-  <testcase classname="| Melbourne99 | 2012/12/12 | 2012-99-12 | RCA |  |" name="And I enter the computer details ,2012/12/12,2012-99-12,RCA" time="0.001"/>
-  <testcase classname="| Melbourne99 | 2012/12/12 | 2012-99-12 | RCA |  |" name="And I click the save this computer button" time="0"/>
-  <testcase classname="| Melbourne99 | 2012/12/12 | 2012-99-12 | RCA |  |" name="And I verify the computer name field is highlighted in red" time="0"/>
-  <testcase classname="| Melbourne99 | 2012/12/12 | 2012-99-12 | RCA |  |" name="And I verify the introduced date field is highlighted in red" time="0.001">
-    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:55)
-	at junit.framework.Assert.assertTrue(Assert.java:22)
-	at junit.framework.Assert.assertTrue(Assert.java:31)
-	at junit.framework.TestCase.assertTrue(TestCase.java:201)
-	at StepDefinition.CreateComputerSteps.iVerifyTheIntroducedDateFieldIsHighlightedInRed(CreateComputerSteps.java:105)
-	at ✽.And I verify the introduced date field is highlighted in red(UpdateComputer.feature:98)
-</failure>
-  </testcase>
-  <testcase classname="| Melbourne99 | 2012/12/12 | 2012-99-12 | RCA |  |" name="| Melbourne99 | 2012/12/12 | 2012-99-12 | RCA |  |" time="0.001">
-    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:55)
-	at junit.framework.Assert.assertTrue(Assert.java:22)
-	at junit.framework.Assert.assertTrue(Assert.java:31)
-	at junit.framework.TestCase.assertTrue(TestCase.java:201)
-	at StepDefinition.CreateComputerSteps.iVerifyTheIntroducedDateFieldIsHighlightedInRed(CreateComputerSteps.java:105)
-	at ✽.And I verify the introduced date field is highlighted in red(UpdateComputer.feature:98)
-</failure>
-  </testcase>
-  <testcase classname="| Melbourne99 | 2012/12/12 | 2012-99-12 | RCA |  |" name="And I verify the discontinued date field is highlighted in red" time="0.005">
-    <skipped/>
-  </testcase>
-  <testcase classname="| Melbourne99 | 2012/12/12 | 2012-99-12 | RCA |  |" name="And I click the cancel button" time="0.006">
-    <skipped/>
-  </testcase>
-  <testcase classname="| Melbourne99 | 2012/12/12 | 2012-99-12 | RCA |  |" name="And I enter the Melbourne99 in the filter text box" time="0.008">
-    <skipped/>
-  </testcase>
-  <testcase classname="| Melbourne99 | 2012/12/12 | 2012-99-12 | RCA |  |" name="And I click the filter button" time="0.009">
-    <skipped/>
-  </testcase>
-  <testcase classname="| Melbourne99 | 2012/12/12 | 2012-99-12 | RCA |  |" name="Then I verify the result contains Melbourne99,2012/12/12,2012-99-12,RCA" time="0.01">
-    <skipped/>
-  </testcase>
-  <testcase classname="| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |" name="Given I load the home page" time="0.001"/>
-  <testcase classname="| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |" name="And I note down the computer count" time="0"/>
-  <testcase classname="| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |" name="And I delete the computer if it exists" time="0"/>
-  <testcase classname="| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |" name="And I delete the computer if it exists" time="0.001"/>
-  <testcase classname="| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |" name="And I create the computer if it does not exist" time="0"/>
-  <testcase classname="| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |" name="And I create the computer if it does not exist" time="0"/>
-  <testcase classname="| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |" name="And I enter the Sydney99 in the filter text box" time="0"/>
-  <testcase classname="| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |" name="And I click the filter button" time="0"/>
-  <testcase classname="| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |" name="And I click on the Melbourne99 in the result" time="0"/>
-  <testcase classname="| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |" name="And I enter the computer details Sydney99,2011-12-12,2014-12-12,Netronics" time="0"/>
-  <testcase classname="| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |" name="And I click the save this computer button" time="0"/>
-  <testcase classname="| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |" name="Then I verify success message for Melbourne99 is not displayed" time="0">
-    <failure message="Success message should not be displayed" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Success message should not be displayed
-	at junit.framework.Assert.fail(Assert.java:57)
-	at junit.framework.Assert.assertTrue(Assert.java:22)
-	at junit.framework.TestCase.assertTrue(TestCase.java:192)
-	at StepDefinition.CreateComputerSteps.iVerifyCreateComputerSuccessMessageIsNotDisplayed(CreateComputerSteps.java:67)
-	at ✽.Then I verify success message for Melbourne99 is not displayed(UpdateComputer.feature:123)
-</failure>
-  </testcase>
-  <testcase classname="| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |" name="| Melbourne99 | 2011-12-12 | 2014-12-12 | Netronics | Sydney99 |" time="0.001">
-    <failure message="Success message should not be displayed" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Success message should not be displayed
-	at junit.framework.Assert.fail(Assert.java:57)
-	at junit.framework.Assert.assertTrue(Assert.java:22)
-	at junit.framework.TestCase.assertTrue(TestCase.java:192)
-	at StepDefinition.CreateComputerSteps.iVerifyCreateComputerSuccessMessageIsNotDisplayed(CreateComputerSteps.java:67)
-	at ✽.Then I verify success message for Melbourne99 is not displayed(UpdateComputer.feature:123)
-</failure>
-  </testcase>
+  <testcase classname="| Melbourne99 |" name="Given I load the home page" time="0.018"/>
+  <testcase classname="| Melbourne99 |" name="And I create the computer if it does not exist" time="0"/>
+  <testcase classname="| Melbourne99 |" name="And I note down the computer count" time="0"/>
+  <testcase classname="| Melbourne99 |" name="And I enter the Melbourne99 in the filter text box" time="0"/>
+  <testcase classname="| Melbourne99 |" name="And I click the filter button" time="0"/>
+  <testcase classname="| Melbourne99 |" name="And I click on the Melbourne99 in the result" time="0"/>
+  <testcase classname="| Melbourne99 |" name="And I click the delete this computer button" time="0"/>
+  <testcase classname="| Melbourne99 |" name="And I enter the Melbourne99 in the filter text box" time="0"/>
+  <testcase classname="| Melbourne99 |" name="And I click the filter button" time="0"/>
+  <testcase classname="| Melbourne99 |" name="Then I verify no results are displayed" time="0"/>
+  <testcase classname="| Melbourne99 |" name="| Melbourne99 |" time="1.679"/>
 </testsuite>
