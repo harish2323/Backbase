@@ -7,6 +7,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -29,6 +30,18 @@ public class BaseTest{
                 System.setProperty("webdriver.chrome.driver", "src/resources/chromedriver");
             }
             driver = new ChromeDriver();
+            System.out.println("Initialising Driver");
+        }
+        if(browser.equals("headless") || browser.equals("")) {
+            ChromeOptions chromeOptions = new ChromeOptions();
+            chromeOptions.addArguments("--headless");
+            if(OS.contains("windows")) {
+                System.setProperty("webdriver.chrome.driver", "src/resources/chromedriver.exe");
+            }
+            if(OS.contains("mac")){
+                System.setProperty("webdriver.chrome.driver", "src/resources/chromedriver");
+            }
+            driver = new ChromeDriver(chromeOptions);
             System.out.println("Initialising Driver");
         }
         if(browser.equals("firefox"))
