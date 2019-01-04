@@ -49,7 +49,10 @@ public class BaseTest{
         // driver.get(System.getProperty("base.url"));
 
     }
-
+    public static void loadhomepage()
+    {
+        driver.get(System.getProperty("base.url"));
+    }
     @After
     public void afterScenario(Scenario scenario){
         System.out.println("This will run after the Scenario");

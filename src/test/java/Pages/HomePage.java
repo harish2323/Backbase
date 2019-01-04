@@ -14,7 +14,7 @@ import java.util.List;
 import static junit.framework.TestCase.assertTrue;
 
 public class HomePage{
-private static WebDriver driver;
+  WebDriver driver;
  public HomePage(WebDriver driver)
  {
     // super();
@@ -72,7 +72,8 @@ private static WebDriver driver;
 
     public static void loadhomepage()
     {
-        driver.get(System.getProperty("base.url"));
+       // driver.get(System.getProperty("base.url"));
+
     }
 
    public static void gotolastpage()

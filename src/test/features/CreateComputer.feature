@@ -58,7 +58,6 @@ Feature: Verify the create computer functionality
   @CREATE_006
   Scenario Outline: check if the computer count is not increased by one when create computer action is cancelled
     And  I enter the computer details <Computer name>,<Introduced date>,<Discontinued date>,<Company name>
-    And  I click the create this computer button
     And  I click the cancel button
     And I enter the <Computer name> in the filter text box
     And I click the filter button

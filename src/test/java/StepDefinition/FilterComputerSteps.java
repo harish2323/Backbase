@@ -25,30 +25,25 @@ import static org.junit.Assert.assertEquals;
 /**
  * Created by Harish19 on 28/07/2018.
  */
-public class FilterComputerSteps extends HomePage {
+public class FilterComputerSteps extends HomePage  {
 
-    private HomePage homepage;
 
     public FilterComputerSteps() {
-        super(BaseTest.driver);
+     super(BaseTest.driver);
 
 
-    }
-
-    @Before("@FilterComputer")
-    public void startup() {
     }
 
 
     @Given("^I load the home page$")
     public void I_load_the_home_page() throws Throwable {
         // navigate to the url based on the environment specified from command line
-        HomePage.loadhomepage();
+        BaseTest.loadhomepage();
     }
 
     @And("^I enter the (.*?) in the filter text box$")
     public void iEnterTheComputerNameInTheFilterTextBox(String computer_name) throws Throwable {
-        HomePage.FILTER_TEXT_FIELD.clear();
+       // homepage.FILTER_TEXT_FIELD.clear();
         HomePage.FILTER_TEXT_FIELD.sendKeys(computer_name);
     }
 
