@@ -37,4 +37,7 @@ mvn test -Dcucumber.options="--tags @DeleteComputer" -DBROWSER="firefox" -P dev
 run all the tests :
 mvn test -DBROWSER="chrome" -P dev
 
+run headless :
+mvn test -Dcucumber.options="--tags @DeleteComputer" -DBROWSER="headless" -P dev
+
 Results : The html results will be stored in reports folder. Screenshots would be embedded for failed tests.
